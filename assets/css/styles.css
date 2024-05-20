@@ -46,6 +46,7 @@
     --background-lamp-image: url("../images/backgrounds/lamps-inverted.png");
     --footer-background-color: #000;
 }
+
 .dark-theme button,
 .dark-theme h1,
 .dark-theme h2,
@@ -61,6 +62,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    transition: 2s;
 }
 
 h1,
@@ -178,7 +180,7 @@ header::before{
 }
 
 .world-characters#bottom-characters {
-    height: 300px;
+    height: 500px;
     background-color: var(--character-bottom-image-color);
     top: 3px;
     transform: rotateZ(180deg) scaleX(-1);
